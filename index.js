@@ -4,7 +4,7 @@ return driver.filter(function (name) { return name.toLowerCase() === string.toLo
 }
 function  fuzzyMatch(driver,string){
 const match = string.length
-return driver.filter(function (elment)   {const first = elment.slice(0,match);  return first === string })
+return driver.filter(function (elment)   {const first = elment.slice(0,3);  return first === string })
 
 
 }
